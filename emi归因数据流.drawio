@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T09:42:55.239Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="2Qac_z7_hIFOkPLPvDfC" version="15.5.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-10-25T13:49:50.400Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="oTdjkv7DPkB8y2NZ8iOm" version="15.5.8" type="github" pages="4">
   <diagram id="4o21e-eSgI8UkRNtZB3F" name="APP转化数据流">
-    <mxGraphModel dx="1869" dy="2110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="1789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -118,7 +118,7 @@
         <mxCell id="Lbf4anZ4mkdeLENvVJDo-18" value="&lt;pre style=&quot;background-color: #fdf6e3 ; color: #657b83 ; font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #2aa198&quot;&gt;ocpx_upload_actionlog_origin&lt;br&gt;(hive)&lt;/span&gt;&lt;/pre&gt;" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;rounded=1;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
           <mxGeometry x="880" y="40" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="SIj5OiHcia-EeLgAvP9m-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Lbf4anZ4mkdeLENvVJDo-21" target="SIj5OiHcia-EeLgAvP9m-1">
+        <mxCell id="SIj5OiHcia-EeLgAvP9m-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Lbf4anZ4mkdeLENvVJDo-21" target="SIj5OiHcia-EeLgAvP9m-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Lbf4anZ4mkdeLENvVJDo-21" value="广告主feedback服务&lt;br&gt;(发送点击下载事件)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -332,8 +332,19 @@
         <mxCell id="tvblfOQqvs1aO30n7EI_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HDLLfMBuL2vimwB7Rq-f-2" target="tvblfOQqvs1aO30n7EI_-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SIj5OiHcia-EeLgAvP9m-1" value="客户归因" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+        <mxCell id="SIj5OiHcia-EeLgAvP9m-1" value="客户归因" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="1270" y="-370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="akg1_FTEBakuyghJaLqj-3" value="Druid&lt;br&gt;(ocpxTracking)" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;rounded=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="680" y="480" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="akg1_FTEBakuyghJaLqj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SWPEwqexWxuaSi2la6Ps-10" target="akg1_FTEBakuyghJaLqj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="akg1_FTEBakuyghJaLqj-5" value="??" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="akg1_FTEBakuyghJaLqj-4">
+          <mxGeometry x="0.1096" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
