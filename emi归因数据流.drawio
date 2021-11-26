@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T07:27:20.817Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="uFVxPjpWDAsgFPbDmdtT" version="15.5.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-11-26T03:57:56.202Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="GVejn60ZPdjsWpjAkoEf" version="15.8.4" type="github" pages="4">
   <diagram id="4o21e-eSgI8UkRNtZB3F" name="APP转化数据流">
-    <mxGraphModel dx="1597" dy="1969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1595" dy="1970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -434,7 +434,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JDvjDU0jgrIfWZ_2oggv" name="线索API上报数据流">
-    <mxGraphModel dx="2424" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2422" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="hTVwWfpE0Fw7kJ8ur4ZS-0" />
         <mxCell id="hTVwWfpE0Fw7kJ8ur4ZS-1" parent="hTVwWfpE0Fw7kJ8ur4ZS-0" />
@@ -518,20 +518,31 @@
         <mxCell id="hTVwWfpE0Fw7kJ8ur4ZS-32" value="DE&lt;br&gt;(投放引擎)" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="hTVwWfpE0Fw7kJ8ur4ZS-1" vertex="1">
           <mxGeometry x="440" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nVQkIlCDECzry_v0Ls3Q-0" value="emi web展示" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="hTVwWfpE0Fw7kJ8ur4ZS-1" vertex="1">
-          <mxGeometry x="100" y="555" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HA5b_I0tj3aFLf-WAbGv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="hTVwWfpE0Fw7kJ8ur4ZS-1" source="HA5b_I0tj3aFLf-WAbGv-0" target="hTVwWfpE0Fw7kJ8ur4ZS-25">
+        <mxCell id="y0KclYW269xF80nSlYGM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hTVwWfpE0Fw7kJ8ur4ZS-1" source="nVQkIlCDECzry_v0Ls3Q-0" target="y0KclYW269xF80nSlYGM-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HA5b_I0tj3aFLf-WAbGv-0" value="ad_event_billing&lt;br&gt;点击事件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="hTVwWfpE0Fw7kJ8ur4ZS-1">
+        <mxCell id="y0KclYW269xF80nSlYGM-2" value="emi-consumer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y0KclYW269xF80nSlYGM-1">
+          <mxGeometry x="-0.0909" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nVQkIlCDECzry_v0Ls3Q-0" value="emi web展示" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="hTVwWfpE0Fw7kJ8ur4ZS-1" vertex="1">
+          <mxGeometry x="100" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HA5b_I0tj3aFLf-WAbGv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="hTVwWfpE0Fw7kJ8ur4ZS-1" source="HA5b_I0tj3aFLf-WAbGv-0" target="hTVwWfpE0Fw7kJ8ur4ZS-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HA5b_I0tj3aFLf-WAbGv-0" value="ad_event_billing&lt;br&gt;点击事件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="hTVwWfpE0Fw7kJ8ur4ZS-1" vertex="1">
           <mxGeometry x="-90" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y0KclYW269xF80nSlYGM-0" value="emi web展示" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="hTVwWfpE0Fw7kJ8ur4ZS-1">
+          <mxGeometry x="100" y="660" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="MEMikZ74fBBKv9IVO4A7" name="乐高转化数据流">
-    <mxGraphModel dx="1597" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1595" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="_Hk3gnxYa_L1gfTy5BDZ-0" />
         <mxCell id="_Hk3gnxYa_L1gfTy5BDZ-1" parent="_Hk3gnxYa_L1gfTy5BDZ-0" />
